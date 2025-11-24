@@ -176,7 +176,7 @@ contract MyDapp is AiOracleConsumer {
                     <tr>
                       <td class="p-4 text-white">Monad Testnet</td>
                       <td class="p-4 text-gray-300">AI Oracle V1</td>
-                      <td class="p-4 font-mono text-[#836EF9]">0x7f...3a9</td>
+                      <td class="p-4 font-mono text-[#836EF9]">0x5718680B413F1BdB27A3c4Fb520FE6c73D3617B3</td>
                     </tr>
                     <tr>
                       <td class="p-4 text-white">Monad Testnet</td>

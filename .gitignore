@@ -18,7 +18,10 @@ logs
 .fleet
 .idea
 
-# Local env files
+
+# Smart Contract Artifacts
+smart-contracts/artifacts/
+
 .env
 .env.*
 !.env.example
