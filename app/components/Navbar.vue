@@ -39,9 +39,10 @@
           <Icon name="lucide:book" class="w-4 h-4" />
           Docs
         </NuxtLink>
-        <button class="bg-monad-purple hover:bg-monad-light text-white px-5 py-2 rounded-lg text-sm font-bold transition-all">
-          Launch App
-        </button>
+        <a href="https://nad.fun/tokens/0x95e6a9C620083cF17ADb3205cC0A2cE996597777" target="_blank" class="bg-monad-purple hover:bg-monad-light text-white px-5 py-2 rounded-lg text-sm font-bold transition-all flex items-center gap-2">
+          <span>Buy $AI</span>
+          <Icon name="lucide:external-link" class="w-4 h-4" />
+        </a>
         
         <!-- Mobile Menu Toggle -->
         <button class="md:hidden p-2 text-gray-300" @click="isOpen = !isOpen">
