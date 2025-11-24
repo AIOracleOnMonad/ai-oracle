@@ -29,12 +29,10 @@
           <NuxtLink to="/docs" class="btn-primary px-8 py-3 rounded-xl font-bold text-lg shadow-lg shadow-[#836EF9]/20 flex items-center justify-center">
             Start Building
           </NuxtLink>
-          <button class="btn-secondary px-8 py-3 rounded-xl font-bold text-lg group relative overflow-hidden">
-            <span class="group-hover:invisible transition-all">Buy $AI on Uniswap</span>
-            <span class="absolute inset-0 flex items-center justify-center bg-monad-dark/90 text-monad-purple font-bold translate-y-full group-hover:translate-y-0 transition-transform duration-200">
-              Coming Soon
-            </span>
-          </button>
+          <a href="https://nad.fun/tokens/0x95e6a9C620083cF17ADb3205cC0A2cE996597777" target="_blank" class="btn-secondary px-8 py-3 rounded-xl font-bold text-lg flex items-center justify-center gap-2 transition-all hover:scale-105">
+            <span>Buy $AI on nad.fun</span>
+            <Icon name="lucide:external-link" class="w-5 h-5" />
+          </a>
         </div>
       </div>
 
