@@ -54,15 +54,14 @@
             </div>
 
             <!-- Buy Button -->
-            <button class="w-full btn-secondary py-4 rounded-xl font-bold text-lg group relative overflow-hidden border-pink-500/30 hover:border-pink-500/50">
-               <a href="https://nad.fun/tokens/0x95e6a9C620083cF17ADb3205cC0A2cE996597777" target="_blank" class="flex items-center justify-center gap-2 group-hover:invisible transition-all text-pink-400">
-                 <Icon name="lucide:external-link" class="w-6 h-6" />
-                 Buy $AI on nad.fun
-               </a>
-               <span class="absolute inset-0 flex items-center justify-center bg-pink-600 text-white font-bold translate-y-full group-hover:translate-y-0 transition-transform duration-200">
-                 Coming Soon
-               </span>
-            </button>
+            <a href="https://nad.fun/tokens/0x95e6a9C620083cF17ADb3205cC0A2cE996597777" target="_blank" class="block w-full">
+              <button class="w-full btn-secondary py-4 rounded-xl font-bold text-lg group relative overflow-hidden border-pink-500/30 hover:border-pink-500/50 transition-all hover:scale-[1.02]">
+                 <span class="flex items-center justify-center gap-2 text-pink-400">
+                   <Icon name="lucide:external-link" class="w-6 h-6" />
+                   Buy $AI on nad.fun
+                 </span>
+              </button>
+            </a>
           </div>
         </div>
 
