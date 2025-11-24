@@ -22,10 +22,18 @@ contract AiOracle is IAiOracle, Ownable {
     uint256[] private _pendingIds;
     mapping(uint256 => uint256) private _pendingIdToIndex;
 
+    event FeeTokenUpdated(address indexed oldToken, address indexed newToken);
+
     constructor(address _aiToken, address _oracleNode) Ownable(msg.sender) {
         aiToken = IERC20(_aiToken);
         oracleNode = _oracleNode;
         _nextRequestId = 1;
+    }
+
+    function setFeeToken(address _aiToken) external onlyOwner {
+        require(_aiToken != address(0), "Invalid token address");
+        emit FeeTokenUpdated(address(aiToken), _aiToken);
+        aiToken = IERC20(_aiToken);
     }
 
     function setModelFee(string calldata model, uint256 fee) external onlyOwner {
