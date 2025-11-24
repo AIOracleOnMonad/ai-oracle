@@ -4,14 +4,14 @@
     <div class="absolute inset-0 z-0">
       <div class="absolute inset-0 bg-monad-bg/80 z-10"></div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-monad-bg/50 to-monad-bg z-10"></div>
-      <NuxtImg src="/hero-bg.png" class="w-full h-full object-cover opacity-60" placeholder />
+      <img src="/hero-bg.png" class="w-full h-full object-cover opacity-60" />
     </div>
 
     <div class="container mx-auto px-6 relative z-20 grid lg:grid-cols-2 gap-12 items-center">
       <!-- Content -->
       <div class="text-center lg:text-left">
         <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[#200052] border border-[#836EF9]/30 text-[#A090FF] text-xs font-bold uppercase tracking-wider mb-8">
-          <NuxtImg src="/monad.svg" class="w-4 h-4" />
+          <img src="/monad.svg" class="w-4 h-4" />
           Native on Monad
         </div>
         
@@ -41,11 +41,11 @@
       <!-- Visual -->
       <div class="relative hidden lg:block">
         <div class="relative animate-float">
-          <NuxtImg 
+          <img
             src="/orb.png" 
             class="w-full max-w-[450px] mx-auto rounded-full animate-slow-spin" 
             style="-webkit-mask-image: radial-gradient(circle at center, black 60%, transparent 100%); mask-image: radial-gradient(circle at center, black 60%, transparent 100%);"
-            placeholder 
+       
           />
           
           <!-- Floating Cards -->
