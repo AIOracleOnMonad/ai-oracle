@@ -1,6 +1,7 @@
 <template>
   <div>
     <Hero />
+    <TokenSection />
     <Features />
     <CodeDemo />
   </div>

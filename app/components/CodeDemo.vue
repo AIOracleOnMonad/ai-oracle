@@ -36,7 +36,7 @@
         
         <div class="p-6 overflow-x-auto">
           <pre class="font-mono text-sm leading-relaxed text-gray-300">
-<span class="text-pink-400">import</span> <span class="text-green-400">"monad-ai-oracle-sdk/contracts/AiOracleConsumer.sol"</span>;
+<span class="text-pink-400">import</span> <span class="text-green-400">"@ai-oracle/sdk/contracts/AiOracleConsumer.sol"</span>;
 
 <span class="text-blue-400">contract</span> <span class="text-yellow-300">MyDeFiApp</span> <span class="text-blue-400">is</span> <span class="text-yellow-300">AiOracleConsumer</span> {
     

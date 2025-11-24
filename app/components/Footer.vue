@@ -24,7 +24,7 @@
         <div>
           <h4 class="font-bold mb-4">Connect</h4>
           <ul class="space-y-2 text-sm text-gray-400">
-            <li><a href="https://twitter.com/ai_oracle" target="_blank" class="hover:text-monad-purple">Twitter</a></li>
+            <li><a href="https://twitter.com/AiOracleOnMonad" target="_blank" class="hover:text-monad-purple">Twitter</a></li>
             <li><a href="#" class="hover:text-monad-purple">GitHub</a></li>
           </ul>
         </div>
@@ -34,7 +34,7 @@
         <p class="text-gray-500 text-sm">© 2025 AI-Oracle. All rights reserved.</p>
         <div class="flex gap-4">
            <!-- Social Icons -->
-           <a href="https://twitter.com/ai_oracle" target="_blank">
+           <a href="https://twitter.com/AiOracleOnMonad" target="_blank">
              <Icon name="simple-icons:x" class="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
            </a>
            <a href="#">

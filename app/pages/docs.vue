@@ -95,7 +95,7 @@
                     <button class="text-gray-400 hover:text-white"><Icon name="lucide:copy" class="w-4 h-4" /></button>
                   </div>
                   <div class="p-4 font-mono text-sm">
-                    <span class="text-[#836EF9]">$</span> npm install monad-ai-oracle-sdk
+                    <span class="text-[#836EF9]">$</span> npm install @ai-oracle/sdk
                   </div>
                 </div>
 
@@ -110,7 +110,7 @@
                     <pre class="font-mono text-sm text-gray-300"><code>// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import "<span class="text-[#F471B5]">monad-ai-oracle-sdk/contracts/AiOracleConsumer.sol</span>";
+import "<span class="text-[#F471B5]">@ai-oracle/sdk/contracts/AiOracleConsumer.sol</span>";
 
 contract MyDapp is AiOracleConsumer {
     

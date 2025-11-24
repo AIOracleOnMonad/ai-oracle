@@ -23,7 +23,7 @@
            <Icon name="lucide:copy" class="w-3 h-3 ml-1" />
         </div>
 
-        <a href="https://twitter.com/ai_oracle" target="_blank" class="p-2 text-gray-400 hover:text-white transition-colors">
+        <a href="https://twitter.com/AiOracleOnMonad" target="_blank" class="p-2 text-gray-400 hover:text-white transition-colors">
           <Icon name="simple-icons:x" class="w-5 h-5" />
         </a>
 

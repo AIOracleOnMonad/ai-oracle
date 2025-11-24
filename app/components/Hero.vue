@@ -26,9 +26,9 @@
         </p>
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-          <button class="btn-primary px-8 py-3 rounded-xl font-bold text-lg shadow-lg shadow-[#836EF9]/20">
+          <NuxtLink to="/docs" class="btn-primary px-8 py-3 rounded-xl font-bold text-lg shadow-lg shadow-[#836EF9]/20 flex items-center justify-center">
             Start Building
-          </button>
+          </NuxtLink>
           <button class="btn-secondary px-8 py-3 rounded-xl font-bold text-lg group relative overflow-hidden">
             <span class="group-hover:invisible transition-all">Buy $AI on Uniswap</span>
             <span class="absolute inset-0 flex items-center justify-center bg-monad-dark/90 text-monad-purple font-bold translate-y-full group-hover:translate-y-0 transition-transform duration-200">
