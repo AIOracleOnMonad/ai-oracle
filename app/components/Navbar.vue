@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
       <!-- Logo -->
       <NuxtLink to="/" class="flex items-center gap-3 group">
-        <NuxtImg src="/logo.svg" alt="AI-Oracle" class="h-10 w-10 transition-transform group-hover:scale-110" />
+        <img src="/logo.svg" alt="AI-Oracle" class="h-10 w-10 transition-transform group-hover:scale-110" />
         <span class="font-display font-bold text-xl tracking-tight">AI-Oracle</span>
       </NuxtLink>
 

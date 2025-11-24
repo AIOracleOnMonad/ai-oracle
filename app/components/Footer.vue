@@ -4,7 +4,7 @@
       <div class="grid md:grid-cols-4 gap-8 mb-8">
         <div class="col-span-1 md:col-span-2">
           <div class="flex items-center gap-2 mb-4">
-            <NuxtImg src="/logo.svg" class="h-8 w-8" />
+            <img src="/logo.svg" class="h-8 w-8" />
             <span class="font-bold text-xl">AI-Oracle</span>
           </div>
           <p class="text-gray-400 text-sm max-w-xs">
