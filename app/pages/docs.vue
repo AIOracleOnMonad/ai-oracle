@@ -174,19 +174,16 @@ contract MyDapp is AiOracleConsumer {
                   </thead>
                   <tbody class="divide-y divide-white/5 text-sm">
                     <tr>
-                      <td class="p-4 text-white">Monad Testnet</td>
+                      <td class="p-4 text-white">Monad Mainnet</td>
                       <td class="p-4 text-gray-300">AI Oracle V1</td>
                       <td class="p-4 font-mono text-[#836EF9]">0x5718680B413F1BdB27A3c4Fb520FE6c73D3617B3</td>
                     </tr>
                     <tr>
-                      <td class="p-4 text-white">Monad Testnet</td>
-                      <td class="p-4 text-gray-300">$AI Token</td>
-                      <td class="p-4 font-mono text-[#836EF9]">0x2b...c91</td>
-                    </tr>
-                    <tr>
                       <td class="p-4 text-white">Monad Mainnet</td>
-                      <td class="p-4 text-gray-500 italic">Coming Soon</td>
+                      <td class="p-4 text-gray-300">$AI Token</td>
+                      <td class="p-4 font-mono text-[#836EF9]">0x0000000000000000000000000000000000000000</td>
                     </tr>
+                  
                   </tbody>
                 </table>
               </div>

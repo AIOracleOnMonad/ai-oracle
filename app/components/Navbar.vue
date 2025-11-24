@@ -17,10 +17,14 @@
       <!-- CTA -->
       <div class="flex items-center gap-3">
         <!-- CA Display -->
-        <div class="hidden lg:flex items-center gap-2 bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg text-xs font-mono text-gray-400 cursor-pointer hover:bg-white/10 hover:text-white transition-all" title="Copy CA">
+        <div 
+          class="hidden lg:flex items-center gap-2 bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg text-xs font-mono text-gray-400 cursor-pointer hover:bg-white/10 hover:text-white transition-all" 
+          title="Copy CA"
+          @click="copyAddress"
+        >
            <span class="text-monad-purple font-bold">$AI:</span>
-           <span>0x7f...3a9</span>
-           <Icon name="lucide:copy" class="w-3 h-3 ml-1" />
+           <span>0x00...000</span>
+           <Icon :name="copied ? 'lucide:check' : 'lucide:copy'" class="w-3 h-3 ml-1" :class="{ 'text-green-400': copied }" />
         </div>
 
         <a href="https://twitter.com/AiOracleOnMonad" target="_blank" class="p-2 text-gray-400 hover:text-white transition-colors">
@@ -57,4 +61,9 @@
 
 <script setup lang="ts">
 const isOpen = ref(false)
+const { copy, copied } = useClipboard()
+
+const copyAddress = () => {
+  copy('0x0000000000000000000000000000000000000000')
+}
 </script>
