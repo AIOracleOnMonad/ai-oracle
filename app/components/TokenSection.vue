@@ -28,7 +28,7 @@
                  </div>
                  <div>
                    <div class="text-xs text-gray-400 uppercase tracking-wider font-bold">Contract Address (Monad Testnet)</div>
-                   <div class="font-mono text-white text-sm sm:text-base break-all">0x0000000000000000000000000000000000000000</div>
+                   <div class="font-mono text-white text-sm sm:text-base break-all">0x95e6a9c620083cf17adb3205cc0a2ce996597777</div>
                  </div>
               </div>
               <button 
@@ -92,7 +92,7 @@
 const copied = ref(false)
 
 const copyAddress = () => {
-  navigator.clipboard.writeText('0x0000000000000000000000000000000000000000')
+  navigator.clipboard.writeText('0x95e6a9c620083cf17adb3205cc0a2ce996597777')
   copied.value = true
   setTimeout(() => {
     copied.value = false

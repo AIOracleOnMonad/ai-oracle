@@ -23,7 +23,7 @@
           @click="copyAddress"
         >
            <span class="text-monad-purple font-bold">$AI:</span>
-           <span>0x00...000</span>
+           <span>0x95...777</span>
            <Icon :name="copied ? 'lucide:check' : 'lucide:copy'" class="w-3 h-3 ml-1" :class="{ 'text-green-400': copied }" />
         </div>
 
@@ -69,7 +69,7 @@ const copied = ref(false)
 
 const copyAddress = async () => {
   try {
-    await navigator.clipboard.writeText('0x0000000000000000000000000000000000000000')
+    await navigator.clipboard.writeText('0x95e6a9c620083cf17adb3205cc0a2ce996597777')
     copied.value = true
     setTimeout(() => {
       copied.value = false
