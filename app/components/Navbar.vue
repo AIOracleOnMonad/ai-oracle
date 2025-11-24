@@ -27,8 +27,12 @@
            <Icon :name="copied ? 'lucide:check' : 'lucide:copy'" class="w-3 h-3 ml-1" :class="{ 'text-green-400': copied }" />
         </div>
 
-        <a href="https://twitter.com/AiOracleOnMonad" target="_blank" class="p-2 text-gray-400 hover:text-white transition-colors">
+        <a href="https://x.com/AIOracleMON" target="_blank" class="p-2 text-gray-400 hover:text-white transition-colors">
           <Icon name="simple-icons:x" class="w-5 h-5" />
+        </a>
+        
+        <a href="https://github.com/AIOracleOnMonad/ai-oracle" target="_blank" class="p-2 text-gray-400 hover:text-white transition-colors">
+          <Icon name="simple-icons:github" class="w-5 h-5" />
         </a>
 
         <NuxtLink to="/docs" class="hidden md:flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 px-4 py-2 rounded-lg text-sm font-medium transition-all text-white">
@@ -61,9 +65,17 @@
 
 <script setup lang="ts">
 const isOpen = ref(false)
-const { copy, copied } = useClipboard()
+const copied = ref(false)
 
-const copyAddress = () => {
-  copy('0x0000000000000000000000000000000000000000')
+const copyAddress = async () => {
+  try {
+    await navigator.clipboard.writeText('0x0000000000000000000000000000000000000000')
+    copied.value = true
+    setTimeout(() => {
+      copied.value = false
+    }, 2000)
+  } catch (err) {
+    console.error('Failed to copy:', err)
+  }
 }
 </script>
